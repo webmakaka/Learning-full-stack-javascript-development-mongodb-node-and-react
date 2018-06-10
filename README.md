@@ -60,3 +60,31 @@ https://github.com/jscomplete/learn-fullstack-javascript
     $ npm install --save-dev webpack
     $ npm install --save-dev babel-cli babel-loader babel-preset-es2015 babel-preset-stage-2 babel-preset-react
     $ npm install --save-dev eslint eslint-plugin-react babel-eslint
+
+<br/>
+
+### 005 Node modules
+
+<br/>
+
+### 006 The HTTP-HTTPS modules
+
+<br/>
+
+### 007 Creating an Express server
+
+    $ npm start
+
+http://localhost/api
+
+<br/>
+
+![Application](/img/pic-01.png?raw=true)
+
+<br/><br/>
+
+---
+
+**Marley**
+
+<a href="https://labs.jsdev.org">labs.jsdev.org</a>
