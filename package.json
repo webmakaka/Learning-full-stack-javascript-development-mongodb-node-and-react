@@ -16,6 +16,7 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/marley-nodejs/learning-full-stack-javascript-development-mongodb-node-and#readme",
   "dependencies": {
+    "ejs": "^2.6.1",
     "express": "^4.16.3",
     "mongodb": "^3.0.10",
     "react": "^16.4.0",

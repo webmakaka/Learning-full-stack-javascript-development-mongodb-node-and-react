@@ -48,6 +48,45 @@ https://github.com/jscomplete/learn-fullstack-javascript
 <hr/>
 <br/>
 
+<br/>
+
+**Visual Studio Code Settings:**
+
+    {
+        "editor.fontSize": 26,
+        "editor.tabSize": 2,
+        "editor.wordWrap": "on",
+        "terminal.integrated.fontSize": 26,
+        "emmet.includeLanguages": {
+            "javascript": "javascriptreact"
+        },
+        "emmet.syntaxProfiles": {
+            "javascript": "jsx"
+        },
+        "editor.formatOnSave": true,
+        "[ejs]": {
+            "editor.formatOnSave": true
+        },
+        "files.autoSave": "afterDelay",
+        "files.autoSaveDelay": 10000,
+        "prettier.singleQuote": true
+    }
+
+<br/>
+
+**Visual Studio Code Plugins:**
+
+- ES7 React/Redux/React-Native/JS snippets
+- Bracket Pair Colorizer
+- Prettier formatter for Visual Studio Code
+- Live Server
+- Node.js Modules Intellisense
+- EJS Language Support
+
+<br/>
+<hr/>
+<br/>
+
 ### 004 Setup and configurations
 
     $ npm init -y
@@ -80,6 +119,12 @@ http://localhost/api
 <br/>
 
 ![Application](/img/pic-01.png?raw=true)
+
+<br/>
+
+### 008 Using the EJS template language
+
+    $ npm install --save ejs
 
 <br/><br/>
 
