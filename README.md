@@ -82,6 +82,7 @@ https://github.com/jscomplete/learn-fullstack-javascript
 - Live Server
 - Node.js Modules Intellisense
 - EJS Language Support
+- VS Code ESLint extension
 
 <br/>
 <hr/>
@@ -140,6 +141,10 @@ http://localhost/api
 <br/>
 
 ### 010 React components
+
+<br/>
+
+### 011 Component composability
 
 <br/><br/>
 
