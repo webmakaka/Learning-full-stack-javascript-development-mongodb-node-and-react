@@ -96,7 +96,7 @@ https://github.com/jscomplete/learn-fullstack-javascript
     $ npm install --save react react-dom
 
     $ npm install --save-dev nodemon
-    $ npm install --save-dev webpack
+    $ npm install --save-dev webpac webpack-cli
     $ npm install --save-dev babel-cli babel-loader babel-preset-es2015 babel-preset-stage-2 babel-preset-react
     $ npm install --save-dev eslint eslint-plugin-react babel-eslint
 
@@ -125,6 +125,17 @@ http://localhost/api
 ### 008 Using the EJS template language
 
     $ npm install --save ejs
+
+<br/>
+
+### 009 React elements and JSX
+
+    $ npm run dev
+    $ npm run start
+
+<br/>
+
+![Application](/img/pic-02.png?raw=true)
 
 <br/><br/>
 
