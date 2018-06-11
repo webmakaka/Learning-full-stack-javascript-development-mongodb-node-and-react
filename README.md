@@ -137,6 +137,10 @@ http://localhost/api
 
 ![Application](/img/pic-02.png?raw=true)
 
+<br/>
+
+### 010 React components
+
 <br/><br/>
 
 ---
