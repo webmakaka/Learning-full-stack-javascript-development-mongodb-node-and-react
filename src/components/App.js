@@ -3,18 +3,27 @@ import React from 'react';
 import Header from './Header.js';
 import ContestPreview from './ContestPreview.js';
 
+import data from '../testData.json';
+
 class App extends React.Component {
   state = {
-    pageHeader: 'Naming Contests'
+    pageHeader: 'Naming Contests',
+    contests: []
   };
+
+  componentDidMount() {
+    this.setState({
+      contests: data.contests
+    });
+  }
 
   render() {
     return (
       <div>
         <Header message={this.state.pageHeader} />
         <div>
-          {this.props.contests.map(contests => (
-            <ContestPreview {...contests} />
+          {this.state.contests.map(contest => (
+            <ContestPreview key={contest.id} {...contest} />
           ))}
         </div>
       </div>

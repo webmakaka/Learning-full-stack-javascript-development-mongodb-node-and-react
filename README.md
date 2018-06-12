@@ -182,6 +182,12 @@ http://localhost/api
 
 ![Application](/img/pic-04.png?raw=true)
 
+<br/>
+
+### 018 Reading from the state
+
+
+
 <br/><br/>
 
 ---
