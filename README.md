@@ -186,7 +186,11 @@ http://localhost/api
 
 ### 018 Reading from the state
 
+<br/>
 
+### 019 Fetching data from a remote API
+
+    $ npm install --save axios
 
 <br/><br/>
 
