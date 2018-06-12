@@ -164,6 +164,14 @@ http://localhost/api
 
     $ npm install --save json-loader
 
+<br/>
+
+### 016 Displaying a list of objects
+
+<br/>
+
+![Application](/img/pic-03.png?raw=true)
+
 <br/><br/>
 
 ---
