@@ -212,6 +212,14 @@ http://localhost/api
 
 ### 022 Fix the checksum problem
 
+<br/>
+
+### 023 Handling the contest click event
+
+<br/>
+
+![Application](/img/pic-06.png?raw=true)
+
 <br/><br/>
 
 ---
