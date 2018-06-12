@@ -192,6 +192,14 @@ http://localhost/api
 
     $ npm install --save axios
 
+<br/>
+
+### 020 Fetching data from the server side
+
+<br/>
+
+![Application](/img/pic-05.png?raw=true)
+
 <br/><br/>
 
 ---

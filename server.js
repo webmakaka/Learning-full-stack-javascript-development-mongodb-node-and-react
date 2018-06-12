@@ -15,6 +15,8 @@ server.use(
 
 server.set('view engine', 'ejs');
 
+import './serverRender.js';
+
 server.get('/', (req, res) => {
   res.render('index', {
     content: 'Hello Express and <em>EJS!</em>'
@@ -24,6 +26,6 @@ server.get('/', (req, res) => {
 server.use('/api', apiRouter);
 server.use(express.static('public'));
 
-server.listen(config.port, () => {
+server.listen(config.port, config.host, () => {
   console.log('Express listening on port ', config.port);
 });
