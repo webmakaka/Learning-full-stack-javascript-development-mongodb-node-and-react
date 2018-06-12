@@ -200,6 +200,14 @@ http://localhost/api
 
 ![Application](/img/pic-05.png?raw=true)
 
+<br/>
+
+### 021 Server rendering with ReactDOMServer
+
+<br/>
+
+![Application](/img/pic-06.png?raw=true)
+
 <br/><br/>
 
 ---

@@ -15,12 +15,16 @@ server.use(
 
 server.set('view engine', 'ejs');
 
-import './serverRender.js';
+import serverRender from './serverRender.js';
 
 server.get('/', (req, res) => {
-  res.render('index', {
-    content: 'Hello Express and <em>EJS!</em>'
-  });
+  serverRender()
+    .then(content => {
+      res.render('index', {
+        content
+      });
+    })
+    .catch(console.error);
 });
 
 server.use('/api', apiRouter);
