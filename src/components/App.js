@@ -1,6 +1,4 @@
 import React from 'react';
-import axios from 'axios';
-
 import Header from './Header.js';
 import ContestPreview from './ContestPreview.js';
 
@@ -10,16 +8,7 @@ class App extends React.Component {
     contests: this.props.initialContests
   };
 
-  componentDidMount() {
-    axios
-      .get('/api/contests')
-      .then(resp => {
-        this.setState({
-          contests: resp.data.contests
-        });
-      })
-      .catch(console.error);
-  }
+  componentDidMount() {}
 
   render() {
     return (
