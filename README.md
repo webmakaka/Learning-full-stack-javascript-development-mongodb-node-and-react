@@ -154,6 +154,16 @@ http://localhost/api
 
 ### 013 Component state
 
+<br/>
+
+### 014 Component life cycle
+
+<br/>
+
+### 015 Loading the test data
+
+    $ npm install --save json-loader
+
 <br/><br/>
 
 ---
