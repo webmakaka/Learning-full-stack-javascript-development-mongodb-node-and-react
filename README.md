@@ -146,6 +146,10 @@ http://localhost/api
 
 ### 011 Component composability
 
+<br/>
+
+### 012 Components with modules
+
 <br/><br/>
 
 ---
