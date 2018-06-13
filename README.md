@@ -244,6 +244,10 @@ http://localhost/api
 
 ![Application](/img/pic-10.png?raw=true)
 
+<br/>
+
+### 027 A bit of refactoring
+
 <br/><br/>
 
 ---

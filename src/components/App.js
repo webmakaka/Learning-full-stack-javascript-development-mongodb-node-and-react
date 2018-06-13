@@ -8,10 +8,7 @@ import * as api from '../api.js';
 const pushState = (obj, url) => window.history.pushState(obj, '', url);
 
 class App extends React.Component {
-  state = {
-    pageHeader: 'Naming Contests',
-    contests: this.props.initialContests
-  };
+  state = this.props.initialData;
 
   componentDidMount() {}
 
@@ -20,7 +17,6 @@ class App extends React.Component {
 
     api.fetchContest(contestId).then(contest => {
       this.setState({
-        pageHeader: contest.contestName,
         currentContestId: contest.id,
         contests: {
           ...this.state.contests,
@@ -30,9 +26,21 @@ class App extends React.Component {
     });
   };
 
+  currentContest() {
+    return this.state.contests[this.state.currentContestId];
+  }
+
+  pageHeader() {
+    if (this.state.currentContestId) {
+      return this.currentContest().contestName;
+    }
+
+    return 'Naming Contests';
+  }
+
   currentContent() {
     if (this.state.currentContestId) {
-      return <Contest {...this.state.contests[this.state.currentContestId]} />;
+      return <Contest {...this.currentContest()} />;
     }
 
     return (
@@ -46,7 +54,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Header message={this.state.pageHeader} />
+        <Header message={this.pageHeader()} />
         {this.currentContent()}
       </div>
     );
@@ -54,7 +62,7 @@ class App extends React.Component {
 }
 
 App.propTypes = {
-  initialContests: PropTypes.object.isRequired
+  initialData: PropTypes.object.isRequired
 };
 
 export default App;
