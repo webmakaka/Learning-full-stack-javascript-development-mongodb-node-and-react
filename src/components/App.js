@@ -7,10 +7,24 @@ import * as api from '../api.js';
 
 const pushState = (obj, url) => window.history.pushState(obj, '', url);
 
+const onPopState = handler => {
+  window.onpopstate = handler;
+};
+
 class App extends React.Component {
   state = this.props.initialData;
 
-  componentDidMount() {}
+  componentDidMount() {
+    onPopState(event => {
+      this.setState({
+        currentContestId: (event.state || {}).currentContestId
+      });
+    });
+  }
+
+  conponentWillUnmount() {
+    onPopState(null);
+  }
 
   fetchContestList = () => {
     pushState({ currentContestId: null }, '/');
