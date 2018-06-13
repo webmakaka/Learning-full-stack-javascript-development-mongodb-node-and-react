@@ -1,7 +1,9 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Header from './Header.js';
 import ContestList from './ContestList.js';
 import Contest from './Contest.js';
+import * as api from '../api.js';
 
 const pushState = (obj, url) => window.history.pushState(obj, '', url);
 
@@ -16,9 +18,15 @@ class App extends React.Component {
   fetchContest = contestId => {
     pushState({ currentContestId: contestId }, `/contest/${contestId}`);
 
-    this.setState({
-      pageHeader: this.state.contests[contestId].contestName,
-      currentContestId: contestId
+    api.fetchContest(contestId).then(contest => {
+      this.setState({
+        pageHeader: contest.contestName,
+        currentContestId: contest.id,
+        contests: {
+          ...this.state.contests,
+          [contest.id]: contest
+        }
+      });
     });
   };
 
@@ -44,5 +52,9 @@ class App extends React.Component {
     );
   }
 }
+
+App.propTypes = {
+  initialContests: PropTypes.object.isRequired
+};
 
 export default App;

@@ -236,6 +236,14 @@ http://localhost/api
 
 ![Application](/img/pic-09.png?raw=true)
 
+<br/>
+
+### 026 Fetching contest information from the API
+
+<br/>
+
+![Application](/img/pic-10.png?raw=true)
+
 <br/><br/>
 
 ---
