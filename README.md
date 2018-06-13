@@ -228,6 +228,14 @@ http://localhost/api
 
 ![Application](/img/pic-08.png?raw=true)
 
+<br/>
+
+### 025 Looking up the contest on route change
+
+<br/>
+
+![Application](/img/pic-09.png?raw=true)
+
 <br/><br/>
 
 ---
