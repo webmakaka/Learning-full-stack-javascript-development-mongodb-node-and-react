@@ -218,7 +218,15 @@ http://localhost/api
 
 <br/>
 
-![Application](/img/pic-06.png?raw=true)
+![Application](/img/pic-07.png?raw=true)
+
+<br/>
+
+### 024 Navigating to a contest
+
+<br/>
+
+![Application](/img/pic-08.png?raw=true)
 
 <br/><br/>
 
