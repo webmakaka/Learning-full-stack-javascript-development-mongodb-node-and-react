@@ -248,6 +248,14 @@ http://localhost/api
 
 ### 027 A bit of refactoring
 
+<br/>
+
+### 028 Server-side routing for a contest
+
+<br/>
+
+![Application](/img/pic-11.png?raw=true)
+
 <br/><br/>
 
 ---
