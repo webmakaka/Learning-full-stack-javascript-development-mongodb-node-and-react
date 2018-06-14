@@ -38,6 +38,25 @@ router.get('/contests', (req, res) => {
     });
 });
 
+router.get('/names/:nameIds', (req, res) => {
+  const namesIds = req.params.nameIds.split(',').map(Number);
+  let names = {};
+
+  mdb
+    .collection('names')
+    .find({ id: { $in: namesIds } })
+    .each((err, name) => {
+      assert.equal(null, err);
+
+      if (!name) {
+        res.send({ names });
+        return;
+      }
+
+      names[name.id] = name;
+    });
+});
+
 router.get('/contests/:contestId', (req, res) => {
   mdb
     .collection('contests')

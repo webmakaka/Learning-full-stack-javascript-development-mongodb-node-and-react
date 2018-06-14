@@ -280,6 +280,14 @@ https://raw.githubusercontent.com/jscomplete/learn-fullstack-javascript/2bd19a1b
 
 ![Application](/img/pic-12.png?raw=true)
 
+<br/>
+
+### 032 API to fetch a list of names
+
+<br/>
+
+![Application](/img/pic-13.png?raw=true)
+
 <br/><br/>
 
 ---
