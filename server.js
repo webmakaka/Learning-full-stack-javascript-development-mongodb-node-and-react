@@ -3,9 +3,13 @@ import config from './config.js';
 import apiRouter from './api';
 import sassMiddleware from 'node-sass-middleware';
 import path from 'path';
+import bodyParser from 'body-parser';
+
 const mongoose = require('mongoose');
 
 const server = express();
+
+server.user(bodyParser.json());
 
 server.use(
   sassMiddleware({

@@ -312,6 +312,14 @@ http://localhost/api/contests/5b21f055b717e30c45ea5798
 
 http://localhost/api/names/5b21f055b717e30c45ea579c
 
+<br/>
+
+### 036 Creating an API to propose a name
+
+    $ npm install --save body-parser
+
+    
+
 <br/><br/>
 
 ---
