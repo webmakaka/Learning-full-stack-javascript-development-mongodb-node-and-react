@@ -296,6 +296,12 @@ https://raw.githubusercontent.com/jscomplete/learn-fullstack-javascript/2bd19a1b
 
 ![Application](/img/pic-14.png?raw=true)
 
+<br/>
+
+### 034 Example script to update all data
+
+    $ babel-node updateTestData.js
+
 <br/><br/>
 
 ---
