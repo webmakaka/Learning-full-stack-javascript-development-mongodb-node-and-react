@@ -48,6 +48,45 @@ https://github.com/jscomplete/learn-fullstack-javascript
 <hr/>
 <br/>
 
+**Final project packages**
+
+    $ npm list -g --depth=0
+    /usr/local/lib
+    `-- npm@6.1.0
+
+<br/>
+
+    $ npm list --depth=0
+    project@1.0.0 /project
+    +-- axios@0.18.0
+    +-- babel-cli@6.26.0
+    +-- babel-eslint@8.2.3
+    +-- babel-loader@7.1.4
+    +-- babel-preset-es2015@6.24.1
+    +-- babel-preset-react@6.24.1
+    +-- babel-preset-stage-2@6.24.1
+    +-- body-parser@1.18.3
+    +-- ejs@2.6.1
+    +-- eslint@4.19.1
+    +-- eslint-plugin-react@7.9.1
+    +-- express@4.16.3
+    +-- json-loader@0.5.7
+    +-- mongodb@3.0.10
+    +-- mongoose@5.1.5
+    +-- node-sass-middleware@0.11.0
+    +-- nodemon@1.17.5
+    +-- react@16.4.0
+    +-- react-dom@16.4.0
+    +-- webpack@4.12.0
+    `-- webpack-cli@3.0.3
+
+<br/>
+
+**MongoDB Scripts**
+
+    $ babel-node loadTestData.js
+    $ babel-node updateTestData.js
+
 <br/>
 
 **Visual Studio Code Settings:**
