@@ -264,6 +264,22 @@ http://localhost/api
 
 ### 030 Handling the browser's back button
 
+<br/>
+
+### 031 Reading data from MongoDB
+
+https://raw.githubusercontent.com/jscomplete/learn-fullstack-javascript/2bd19a1ba526f9a2059b3e5f3725d2df606ab3a3/loadTestData.js
+
+    $ npm install --save mongoose
+
+    $ babel-node loadTestData.js
+    Contests 4
+    Names 6
+
+<br/>
+
+![Application](/img/pic-12.png?raw=true)
+
 <br/><br/>
 
 ---

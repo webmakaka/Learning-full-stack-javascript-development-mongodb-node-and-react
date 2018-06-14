@@ -17,9 +17,9 @@ const getApiUrl = contestId => {
 const getInitialData = (contestId, apiData) => {
   if (contestId) {
     return {
-      currentContestId: apiData.contest.id,
+      currentContestId: apiData.id,
       contests: {
-        [apiData.contest.id]: apiData.contest
+        [apiData.id]: apiData
       }
     };
   }
@@ -32,9 +32,6 @@ const getInitialData = (contestId, apiData) => {
 const serverRender = contestId =>
   axios.get(getApiUrl(contestId)).then(resp => {
     const initialData = getInitialData(contestId, resp.data);
-
-    console.log('initialData');
-    console.log(initialData);
 
     return {
       initialMarkup: ReactDOMServer.renderToString(

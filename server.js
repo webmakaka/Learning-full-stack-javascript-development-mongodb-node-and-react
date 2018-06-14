@@ -3,6 +3,7 @@ import config from './config.js';
 import apiRouter from './api';
 import sassMiddleware from 'node-sass-middleware';
 import path from 'path';
+const mongoose = require('mongoose');
 
 const server = express();
 
@@ -34,3 +35,15 @@ server.use(express.static('public'));
 server.listen(config.port, config.host, () => {
   console.log('Express listening on port ', config.port);
 });
+
+mongoose.connect(
+  config.dbUrl,
+  err => {
+    if (err) {
+      console.log('Cannot connect to the database');
+      return console.log(err);
+    }
+
+    console.log('Connected to the database');
+  }
+);
