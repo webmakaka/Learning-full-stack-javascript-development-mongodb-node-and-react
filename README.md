@@ -318,7 +318,13 @@ http://localhost/api/names/5b21f055b717e30c45ea579c
 
     $ npm install --save body-parser
 
-    
+<br/>
+
+### 037 Wiring the proposed new name form
+
+<br/>
+
+![Application](/img/pic-15.png?raw=true)
 
 <br/><br/>
 

@@ -9,7 +9,7 @@ const mongoose = require('mongoose');
 
 const server = express();
 
-server.user(bodyParser.json());
+server.use(bodyParser.json());
 
 server.use(
   sassMiddleware({
