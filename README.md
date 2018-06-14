@@ -302,6 +302,16 @@ https://raw.githubusercontent.com/jscomplete/learn-fullstack-javascript/2bd19a1b
 
     $ babel-node updateTestData.js
 
+<br/>
+
+### 035 Converting the application to use \_id
+
+http://localhost/api/contests/
+
+http://localhost/api/contests/5b21f055b717e30c45ea5798
+
+http://localhost/api/names/5b21f055b717e30c45ea579c
+
 <br/><br/>
 
 ---
