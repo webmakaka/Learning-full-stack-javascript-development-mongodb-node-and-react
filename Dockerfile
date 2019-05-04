@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:10-alpine
 
 # RUN apk update && apk upgrade && \
 #  apk add --no-cache vim bash git 
