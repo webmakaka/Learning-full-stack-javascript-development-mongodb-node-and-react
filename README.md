@@ -371,4 +371,4 @@ http://localhost/api/names/5b21f055b717e30c45ea579c
 
 **Marley**
 
-<a href="https://labs.jsdev.org">labs.jsdev.org</a>
+<a href="https://jsdev.org">jsdev.org</a>
