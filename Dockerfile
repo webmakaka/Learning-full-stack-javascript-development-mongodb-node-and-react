@@ -10,4 +10,6 @@ RUN npm install
 
 COPY . .
 
+RUN ./node_modules/webpack/bin/webpack.js
+
 CMD ["npm", "run", "start"]

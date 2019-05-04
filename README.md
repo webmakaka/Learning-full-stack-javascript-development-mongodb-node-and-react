@@ -12,6 +12,25 @@ https://github.com/jscomplete/learn-fullstack-javascript
 <hr/>
 <br/>
 
+**Run project inside docker container**
+
+    $ docker run -it \
+    -p 80:8080 \
+    --name learning-full-stack-javascript-development-mongodb-node-and-react \
+    marley/learning-full-stack-javascript-development-mongodb-node-and-react
+
+<br/>
+
+http://localhost/
+
+<br/>
+
+    $ docker rm learning-full-stack-javascript-development-mongodb-node-and-react
+
+<br/>
+<hr/>
+<br/>
+
 ## My env
 
 <br/>
