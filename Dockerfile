@@ -7,10 +7,10 @@ WORKDIR /project
 
 COPY ./package*.json ./
 RUN npm install
-RUN npm install -g webpack
 
 COPY . .
 
-RUN webpack --mode=production
+RUN npm run webpack
+# RUN webpack --mode=production
 
 CMD ["npm", "run", "start"]
